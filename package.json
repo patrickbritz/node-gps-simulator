@@ -6,7 +6,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/patrickb19/node-gps-simulator.git"
+    "url": "git+ssh://git@github.com/patrickbritz/node-gps-simulator.git"
   },
   "files": [
     "lib/node-gps-simulator.js",
