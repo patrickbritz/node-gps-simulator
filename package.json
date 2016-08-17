@@ -1,0 +1,37 @@
+{
+  "name": "node-gps-simulator",
+  "homepage": "",
+  "author": {
+    "name": "Patrick Britz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/patrickb19/node-gps-simulator.git"
+  },
+  "files": [
+    "lib/node-gps-simulator.js",
+    "lib/coordinate-generator-manager.js"
+  ],
+  "description": "Simulates multiple gps clients which move independently and update their new coordinates.",
+  "keywords": [
+    "gps",
+    "simulator",
+    "latitude",
+    "longitude",
+    "location"
+  ],
+  "version": "0.0.1",
+  "main": "node-gps-simulator.js",
+  "scripts" : {
+    "test" : "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "gaussian": "^1.1.0",
+    "geolib": "^2.0.21",
+    "mocha": "^3.0.2",
+    "node-uuid": "^1.4.7",
+    "poisson-process": "^0.2.1",
+    "prob.js": "^1.0.6"
+  }
+}
