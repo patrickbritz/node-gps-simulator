@@ -21,7 +21,7 @@
     "location"
   ],
   "version": "0.0.1",
-  "main": "node-gps-simulator.js",
+  "main": "lib/node-gps-simulator.js",
   "scripts" : {
     "test" : "./node_modules/.bin/mocha --reporter spec"
   },
