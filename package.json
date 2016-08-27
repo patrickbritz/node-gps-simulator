@@ -22,16 +22,18 @@
   ],
   "version": "0.0.1",
   "main": "lib/node-gps-simulator.js",
-  "scripts" : {
-    "test" : "./node_modules/.bin/mocha --reporter spec"
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "dependencies": {
     "chai": "^3.5.0",
+    "clusterfck": "^0.6.0",
     "gaussian": "^1.1.0",
     "geolib": "^2.0.21",
     "mocha": "^3.0.2",
     "node-uuid": "^1.4.7",
     "poisson-process": "^0.2.1",
-    "prob.js": "^1.0.6"
+    "prob.js": "^1.0.6",
+    "request": "^2.74.0"
   }
 }
